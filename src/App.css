@@ -1,0 +1,51 @@
+form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+img {
+  width: 200px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  background: #C0C0C0;
+  border: none;
+  outline: none;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+input:hover {
+  opacity: .8;
+}
+
+input:active {
+  opacity: .5;
+}
+
+button {
+  width: 300px;
+  height: 40px;
+  background: aqua;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+span {
+  color: red;
+  position: absolute;
+  margin-top: 60px;
+}
